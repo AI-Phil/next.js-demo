@@ -26,6 +26,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+# Astra connection bundle
+secure-connect-*.zip
 
 # vercel
 .vercel

@@ -1,0 +1,85 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.center-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.form-input, .form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.search-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+/* Styles for the table */
+.table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+/* Styles for table rows */
+.table tr {
+  border-bottom: 1px solid black;
+}
+
+/* Styles for table cells */
+.table td,
+.table th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Specific styles for first and second columns */
+.table th:first-child,
+.table td:first-child,
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  width: 1%;  /* makes the column as small as the content */
+  white-space: nowrap;  /* prevents the content from wrapping */
+}
+
+/* Styles for bold columns (Doc and Paragraph) */
+.bold-column {
+  font-weight: bold;
+}
